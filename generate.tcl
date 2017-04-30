@@ -1,4 +1,4 @@
-open_project vivado-hls-project
+open_project disparity_coprocessor
 set_top disparity_pixel_coprocessor
 add_files disparity_core.cpp
 add_files -tb test_disparity_coprocessor.cpp
